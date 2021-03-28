@@ -1,4 +1,4 @@
-package com.product.testScripts.cases;
+package com.product.pageObjects;
 
 import com.product.util.ObjectMap;
 import org.openqa.selenium.WebDriver;

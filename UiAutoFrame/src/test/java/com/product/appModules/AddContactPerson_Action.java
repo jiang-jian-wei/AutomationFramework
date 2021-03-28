@@ -1,7 +1,7 @@
 package com.product.appModules;
 
 import com.product.pageObjects.HomePage;
-import com.product.testScripts.cases.AddressBookPage;
+import com.product.pageObjects.AddressBookPage;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
