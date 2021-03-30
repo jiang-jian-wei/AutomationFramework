@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="126Test">
+    <test name="loginAndCreateTest">
+        <classes>
+            <class name="com.product.testScripts.cases.TestMail126Login"/>
+        </classes>
+    </test>
+    <test name="GetCodeTest">
+        <classes>
+            <class name="com.product.testScripts.GetCodeTest"/>
+        </classes>
+    </test>
+
+    <listeners>
+        <listener class-name="com.product.util.ExtentTestNGIReporterListener"/>
+    </listeners>
+</suite>

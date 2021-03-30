@@ -58,7 +58,7 @@ public class ElementLocatorTests extends CaseBase {
         driver.findElement(By.xpath("//div[contains(@id,'_mail_button_')]/span[contains(text(),'新建联系人')]")).click();
         driver.findElement(By.id("input_N")).sendKeys("123456");
         driver.findElement(By.xpath("//div[@id='iaddress_MAIL_wrap']/dl/dd/div/input")).sendKeys("132132");
-        driver.findElement((By.id("fly0"))).click();
+        driver.findElement((By.id("fly1"))).click();
         driver.findElement(By.xpath("//div[@id='iaddress_TEL_wrap']/dl/dd/div/input")).sendKeys("15268459231");
         driver.findElement(By.id("input_DETAIL")).sendKeys("这是一个描述哟哟哟~~~");
         driver.findElement(By.xpath("//*[contains(@id,'_mail_button_')]/span[contains(.,'确 定')]")).click();
