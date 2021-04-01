@@ -24,5 +24,11 @@ public class HomePage {
 
     // 如果要在HomePage页面操作更多的链接元素，可以根据需要自行定义
 
+    // 写信按钮
+    public WebElement writeEmail() throws Exception {
+        element = driver.findElement(objectMap.getLocator("126mail.homePage.writeEmailButton"));
+        return element;
+    }
+
 
 }
