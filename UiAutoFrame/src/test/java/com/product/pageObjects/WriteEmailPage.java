@@ -40,4 +40,10 @@ public class WriteEmailPage {
         return element;
     }
 
+    // 富文本框frame
+    public WebElement textFrame() throws Exception {
+        element = driver.findElement(objectMap.getLocator("126mail.writeEmail.textFrame"));
+        return element;
+    }
+
 }
